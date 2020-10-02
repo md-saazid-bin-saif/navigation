@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <script>"https://kit.fontawesome.com/a076d05399.js"</script>
+    <style type="text/css">
+       body{
+           background-image: url(1.jpg);
+           background-size: cover;
+           background-attachment: fixed;
+       }
+       
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .sidebar{
+            position: fixed;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background: #042331;
+        }
+        .sidebar header{
+            font-size: 22px;
+            color:white;
+            text-align: center;
+            line-height: 70px;
+            background: #063146;
+            user-select: none;
+        }
+        .sidebar ul a{
+            display: block;
+            height: 100%;
+            width: 100%;
+            line-height: 65px;
+            font-size: 20px;
+            color:white;
+            padding-left: 40px;
+            box-sizing: border-box;
+            border-top: 1px solid rgba(255,255,255,.1);
+            border-bottom: 1px solid black;
+            transition: .4s;
+        }
+        ul li:hover a{
+            padding-left: 50px;
+        }
+        .sidebar ul a i{
+            margin-right: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <header>Canitas Market</header>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Registration Now</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Mobile App</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
